@@ -1,0 +1,88 @@
+ .header
+ {
+font-family: roboto;
+font-size: 15;
+color: white;
+font-weight: 600;
+background-color: white;
+margin: 0px;
+padding-top: 30px;
+text-align: center;
+vertical-align: center;
+}
+
+h1{
+  font-family: roboto;
+  font-style: bold;
+  font-weight: bolder;
+  color: black;
+}
+
+.grid{
+  display: grid;
+  grid-gap: 0px;
+  grid-template-areas:
+  'marginleft headerleft headerleft headerright headerright marginright'
+  'marginleft main main main main marginright'
+  'marginleft footer footer footer footer marginright';
+}
+
+.item1{
+  grid-area: headerleft;
+}
+
+.item2{
+  grid-area: headerright;
+}
+
+.item3{
+  grid-area: main;
+}
+
+
+.flex{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+
+.buttonlink:link, .buttonlink:visited {
+  background-color: #f44336;
+  color: white;
+  padding: 15px 25px;
+  word-spacing: 20px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+}
+
+.buttonlink:hover, .buttonlink:active {
+  background-color: red;
+
+}
+
+a:link {
+    padding: 20px 20px;
+    color: black;
+    background-color: transparent;
+    text-decoration: none;
+  }
+  
+  a:visited {
+    color: black;
+    background-color: transparent;
+    text-decoration: none;
+  }
+  
+  a:hover {
+    color: lightskyblue;
+    background-color: transparent;
+    text-decoration: none;
+  }
+  
+  a:active {
+    color: black;
+    background-color: transparent;
+    text-decoration: none;
+  }
